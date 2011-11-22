@@ -1,9 +1,9 @@
 ; ----------------
-; Generated makefile from http://drushmake.me
-; Permanent URL: http://drushmake.me/file.php?token=42be2503f9dd
+; Make file created by J.R. Logan at Progressable.com
+; 
 ; ----------------
 ;
-; This is a working makefile - try it! Any line starting with a `;` is a comment.
+; Any line starting with a `;` is a comment.
   
 ; Core version
 ; ------------
