@@ -26,8 +26,6 @@ projects[drupal][version] = 7
 ; Modules
 ; --------
 
-
-
 projects[acquia_connector][type] = "module"
 projects[acquia_connector][version] = 2.1
 
@@ -207,19 +205,17 @@ projects[jquery_update][type] = "module"
 ; projects[open_way_modules][destination] = sites/all/modules/open_way_modules
 
 
-
-
 ; Themes
 ; --------
 
 projects[rubik][version] = 4.0-beta6
 projects[rubik][type] = "theme"
-; projects[zen][version] = 3.1
-; projects[zen][type] = "theme"
+projects[zen][version] = 3.1
+projects[zen][type] = "theme"
 
 ; projects[live_united_2011][type] = "theme"
 ; projects[live_united_2011][download][type] = "git"
-;  projects[live_united_2011][download][url] = "https://Progressable@github.com/Progressable/live_united_2011.git"
+; projects[live_united_2011][download][url] = "https://Progressable@github.com/Progressable/live_united_2011.git"
 
 ; projects[live_united_classic][type] = "theme"
 ; projects[live_united_classic][download][url] = "https://Progressable@github.com/Progressable/live_united_classic.git"
@@ -231,23 +227,23 @@ projects[rubik][type] = "theme"
 ; Libraries
 ; ---------
 
+; CKEditor
+libraries[ckeditor][download][type]= "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
+
 ; Jquery UI
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"
 libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"
 
-; CKEditor
-libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip"
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][destination] = "libraries"
-
 ; Colorbox
-libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
-libraries[ckeditor][directory_name] = "colorbox"
-libraries[ckeditor][destination] = "libraries"
+libraries[colorbox][download][type]= "get"
+libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][destination] = "libraries"
 
 ; jquery.cycle
 libraries[jquery.cycle][download][type]= "get"
@@ -255,10 +251,18 @@ libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
 
+; Plupload
 libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = http://www.plupload.com/plupload_1_3_0.zip
-libraries[plupload][destination] = modules/mediapackage/plupload
+libraries[plupload][destination] = "libraries"
 libraries[plupload][directory_name] = plupload
+
+; Mediaelement
+libraries[mediaelement][download][type] = "get"
+libraries[mediaelement][download][url] = http://github.com/johndyer/mediaelement/zipball/master
+libraries[mediaelement][destination] = "libraries"
+libraries[mediaelement][directory_name] = mediaelement
+
 
 
 ; Install Profile
@@ -272,5 +276,4 @@ libraries[plupload][directory_name] = plupload
 ; projects[profiler][version] = 2.0-beta1
 ; projects[profiler][type] = "module"
 ; projects[profiler][destination] = profiles/open_way/libraries
-
 
