@@ -20,7 +20,7 @@ api = 2
 ; Core project
 ; ------------
 projects[drupal][version] = 7
-
+projects[drupal][type] = core
   
   
 ; Modules
@@ -198,11 +198,10 @@ projects[jquery_update][type] = "module"
 ; Open Way Modules
 ; --------
 
-; projects[open_way_modules][subdir] = "open_way_modules"
-; projects[open_way_modules][type] = "file"
-; projects[open_way_modules][download][type] = "git"
-; projects[open_way_modules][download][url] = "https://Progressable@github.com/Progressable/open_way_modules.git"
-; projects[open_way_modules][destination] = sites/all/modules/open_way_modules
+;projects[open_way_modules][subdir] = "open_way_modules"
+;projects[open_way_modules][type] = "file"
+;projects[open_way_modules][download][type] = "git"
+;projects[open_way_modules][download][url] = "git://github.com/Progressable/open_way_modules.git"
 
 
 ; Themes
@@ -213,16 +212,15 @@ projects[rubik][type] = "theme"
 projects[zen][version] = 3.1
 projects[zen][type] = "theme"
 
-; projects[live_united_2011][type] = "theme"
-; projects[live_united_2011][download][type] = "git"
-; projects[live_united_2011][download][url] = "https://Progressable@github.com/Progressable/live_united_2011.git"
+projects[live_united_2011][type] = "theme"
+projects[live_united_2011][download][type] = "git"
+projects[live_united_2011][download][url] = "git://github.com/Progressable/live_united_2011.git"
 
-; projects[live_united_classic][type] = "theme"
-; projects[live_united_classic][download][url] = "https://Progressable@github.com/Progressable/live_united_classic.git"
-; projects[live_united_classic][download][type] = "git"
+projects[live_united_classic][type] = "theme"
+projects[live_united_classic][download][url] = "git://github.com/Progressable/live_united_classic.git"
+projects[live_united_classic][download][type] = "git"
 
 
-  
   
 ; Libraries
 ; ---------
