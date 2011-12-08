@@ -196,18 +196,35 @@ projects[comment_notify][type] = "module"
 projects[jquery_update][version] = 2.2
 projects[jquery_update][type] = "module"
 
-;projects[open_way_structure_example][subdir] = "openway"
-;projects[open_way_structure_example][type] = "module"
-;projects[open_way_structure_example][download][type] = "git"
-;projects[open_way_structure_example][download][url] = "https://Progressable@github.com/Progressable/Open-Way-Makefile.git"
+
+; Open Way Modules
+; --------
+
+; projects[open_way_modules][subdir] = "open_way_modules"
+; projects[open_way_modules][type] = "file"
+; projects[open_way_modules][download][type] = "git"
+; projects[open_way_modules][download][url] = "https://Progressable@github.com/Progressable/open_way_modules.git"
+; projects[open_way_modules][destination] = sites/all/modules/open_way_modules
+
+
 
 
 ; Themes
 ; --------
+
 projects[rubik][version] = 4.0-beta6
 projects[rubik][type] = "theme"
-projects[zen][version] = 3.1
-projects[zen][type] = "theme"
+; projects[zen][version] = 3.1
+; projects[zen][type] = "theme"
+
+; projects[live_united_2011][type] = "theme"
+; projects[live_united_2011][download][type] = "git"
+;  projects[live_united_2011][download][url] = "https://Progressable@github.com/Progressable/live_united_2011.git"
+
+; projects[live_united_classic][type] = "theme"
+; projects[live_united_classic][download][url] = "https://Progressable@github.com/Progressable/live_united_classic.git"
+; projects[live_united_classic][download][type] = "git"
+
 
   
   
@@ -237,4 +254,23 @@ libraries[jquery.cycle][download][type]= "get"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
+
+libraries[plupload][download][type] = "get"
+libraries[plupload][download][url] = http://www.plupload.com/plupload_1_3_0.zip
+libraries[plupload][destination] = modules/mediapackage/plupload
+libraries[plupload][directory_name] = plupload
+
+
+; Install Profile
+; --------
+
+; projects[open_way][subdir] = "openway"
+; projects[open_way][download][type] = "git"
+; projects[open_way][download][url] = https://Progressable@github.com/Progressable/open_way.git
+; projects[open_way][destination] = profiles/open_way
+
+; projects[profiler][version] = 2.0-beta1
+; projects[profiler][type] = "module"
+; projects[profiler][destination] = profiles/open_way/libraries
+
 
