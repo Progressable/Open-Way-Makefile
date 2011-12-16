@@ -199,9 +199,9 @@ projects[jquery_update][type] = "module"
 ; --------
 
 ;projects[open_way_modules][subdir] = "open_way_modules"
-;projects[open_way_modules][type] = "file"
-;projects[open_way_modules][download][type] = "git"
-;projects[open_way_modules][download][url] = "git://github.com/Progressable/open_way_modules.git"
+projects[open_way_modules][type] = "module"
+projects[open_way_modules][download][type] = "git"
+projects[open_way_modules][download][url] = "git://github.com/Progressable/open_way_modules.git"
 
 
 ; Themes
@@ -265,6 +265,7 @@ libraries[mediaelement][directory_name] = mediaelement
 
 ; Install Profile
 ; --------
+; Todo figure out how to get Drush Make to put these files in the drupal profile directory.
 
 ; projects[open_way][subdir] = "openway"
 ; projects[open_way][download][type] = "git"
