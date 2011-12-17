@@ -77,8 +77,8 @@ projects[flag][version] = 2.0-beta6
 projects[flexible_blogs][type] = "module"
 projects[flexible_blogs][version] = 1.0
 
-projects[google_analytics][type] = "module"
-projects[google_analytics][version] = 1.2
+; projects[google_analytics][type] = "module"
+; projects[google_analytics][version] = 1.2
 
 projects[imageapi][type] = "module"
 projects[imageapi][version] = 1.x-dev
@@ -146,8 +146,8 @@ projects[plupload][type] = "module"
 projects[plupload][version] = 1.0
 projects[plupload][version] = 1.0-beta3
 
-projects[redirect][type] = "module"
-projects[redirect][version] = 1.0-beta3
+; projects[redirect][type] = "module"
+; projects[redirect][version] = 1.0-beta3
 
 projects[role_delegation][type] = "module"
 projects[role_delegation][version] = 1.1
@@ -210,6 +210,7 @@ projects[tao][version] = 3.0-beta4
 
 projects[workbench_moderation][version] = 1.1
 
+projects[file_entity][version] = 2.0-unstable2
 
 
 ; Open Way Modules
