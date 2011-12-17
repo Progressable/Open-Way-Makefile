@@ -57,7 +57,7 @@ projects[custom_breadcrumbs][type] = "module"
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 
 projects[date][type] = "module"
-projects[date][version] = 2.0-alpha4
+projects[date][version] = 2.0-alpha5
 
 projects[diff][type] = "module"
 projects[diff][version] = 2.0
@@ -114,7 +114,7 @@ projects[media_gallery][type] = "module"
 projects[media_gallery][version] = 1.0-beta7
 
 projects[media_vimeo][type] = "module"
-projects[media_vimeo][version] = 1.0-beta3
+projects[media_vimeo][version] = 1.0-beta4
 
 projects[media_youtube][type] = "module"
 projects[media_youtube][version] = 1.0-alpha5
@@ -165,7 +165,7 @@ projects[stringoverrides][type] = "module"
 projects[stringoverrides][version] = 1.8
 
 projects[strongarm][type] = "module"
-projects[strongarm][version] = 2.0-beta4
+projects[strongarm][version] = 2.0-beta5
 
 projects[styles][type] = "module"
 projects[styles][version] = 2.0-alpha8
@@ -180,7 +180,7 @@ projects[views][type] = "module"
 projects[views][version] = 3.0-rc3
 
 projects[webform][type] = "module"
-projects[webform][version] = 3.13
+projects[webform][version] = 3.15
 
 projects[workbench][type] = "module"
 projects[workbench][version] = 1.1
@@ -194,11 +194,27 @@ projects[comment_notify][type] = "module"
 projects[jquery_update][version] = 2.2
 projects[jquery_update][type] = "module"
 
+projects[defaultcontent][version] = 1.0-alpha4
+
+projects[field_group][version] = 1.1
+
+projects[globalredirect][version] = 1.3
+
+projects[image_resize_filter][version] = 1.13
+
+projects[profile2][version] = 1.1
+
+projects[rpx][version] = 2.1
+
+projects[tao][version] = 3.0-beta4
+
+projects[workbench_moderation][version] = 1.1
+
+
 
 ; Open Way Modules
 ; --------
 
-;projects[open_way_modules][subdir] = "open_way_modules"
 projects[open_way_modules][type] = "module"
 projects[open_way_modules][download][type] = "git"
 projects[open_way_modules][download][url] = "git://github.com/Progressable/open_way_modules.git"
