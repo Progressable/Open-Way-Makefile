@@ -77,8 +77,8 @@ projects[flag][version] = 2.0-beta6
 projects[flexible_blogs][type] = "module"
 projects[flexible_blogs][version] = 1.0
 
-; projects[google_analytics][type] = "module"
-; projects[google_analytics][version] = 1.2
+projects[google_analytics][type] = "module"
+projects[google_analytics][version] = 1.2
 
 projects[imageapi][type] = "module"
 projects[imageapi][version] = 1.x-dev
@@ -146,8 +146,8 @@ projects[plupload][type] = "module"
 projects[plupload][version] = 1.0
 projects[plupload][version] = 1.0-beta3
 
-; projects[redirect][type] = "module"
-; projects[redirect][version] = 1.0-beta3
+projects[redirect][type] = "module"
+projects[redirect][version] = 1.0-beta3
 
 projects[role_delegation][type] = "module"
 projects[role_delegation][version] = 1.1
@@ -212,6 +212,8 @@ projects[workbench_moderation][version] = 1.1
 
 projects[file_entity][version] = 2.0-unstable2
 
+projects[entity][version] = 1.0-rc1
+
 
 ; Open Way Modules
 ; --------
@@ -268,7 +270,7 @@ libraries[jquery.cycle][destination] = "libraries"
 
 ; Plupload
 libraries[plupload][download][type] = "get"
-libraries[plupload][download][url] = http://www.plupload.com/plupload_1_3_0.zip
+libraries[plupload][download][url] = https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip
 libraries[plupload][destination] = "libraries"
 libraries[plupload][directory_name] = plupload
 
