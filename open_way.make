@@ -57,7 +57,7 @@ projects[custom_breadcrumbs][type] = "module"
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 
 projects[date][type] = "module"
-projects[date][version] = 2.0-alpha5
+projects[date][version] = 2.0-rc1
 
 projects[diff][type] = "module"
 projects[diff][version] = 2.0
@@ -69,7 +69,7 @@ projects[extlink][type] = "module"
 projects[extlink][version] = 1.12
 
 projects[features][type] = "module"
-projects[features][version] = 1.0-beta4
+projects[features][version] = 1.0-beta5
 
 projects[flag][type] = "module"
 projects[flag][version] = 2.0-beta6
@@ -147,7 +147,7 @@ projects[plupload][version] = 1.0
 projects[plupload][version] = 1.0-beta3
 
 projects[redirect][type] = "module"
-projects[redirect][version] = 1.0-beta3
+projects[redirect][version] = 1.0-beta4
 
 projects[role_delegation][type] = "module"
 projects[role_delegation][version] = 1.1
@@ -213,6 +213,10 @@ projects[workbench_moderation][version] = 1.1
 projects[file_entity][version] = 2.0-unstable2
 
 projects[entity][version] = 1.0-rc1
+
+projects[nice_menus][version] = 2.0
+
+projects[ThemeKey][version] = 1.5
 
 
 ; Open Way Modules
