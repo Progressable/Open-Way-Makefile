@@ -216,7 +216,7 @@ projects[entity][version] = 1.0-rc1
 
 projects[nice_menus][version] = 2.0
 
-projects[ThemeKey][version] = 1.5
+projects[themekey][version] = 1.5
 
 
 ; Open Way Modules
