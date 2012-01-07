@@ -284,6 +284,10 @@ libraries[mediaelement][download][url] = http://github.com/johndyer/mediaelement
 libraries[mediaelement][destination] = "libraries"
 libraries[mediaelement][directory_name] = mediaelement
 
+; Profiler
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
+
 
 
 ; Install Profile
