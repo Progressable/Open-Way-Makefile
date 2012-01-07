@@ -69,7 +69,7 @@ projects[extlink][type] = "module"
 projects[extlink][version] = 1.12
 
 projects[features][type] = "module"
-projects[features][version] = 1.0-beta5
+projects[features][version] = 1.0-beta6
 
 projects[flag][type] = "module"
 projects[flag][version] = 2.0-beta6
@@ -177,7 +177,7 @@ projects[views_slideshow][type] = "module"
 projects[views_slideshow][version] = 3.0
 
 projects[views][type] = "module"
-projects[views][version] = 3.0-rc3
+projects[views][version] = 3.0
 
 projects[webform][type] = "module"
 projects[webform][version] = 3.15
