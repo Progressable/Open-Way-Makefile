@@ -120,22 +120,22 @@ projects[media_youtube][type] = "module"
 projects[media_youtube][version] = 1.0-alpha5
 
 projects[media][type] = "module"
-projects[media][version] = 1.0-rc2
+projects[media][version] = 1.0-rc3
 
 projects[mediaelement][type] = "module"
-projects[mediaelement][version] = 1.1
+projects[mediaelement][version] = 1.2
 
 projects[menu_block][type] = "module"
 projects[menu_block][version] = 2.2
 
 projects[mollom][type] = "module"
-projects[mollom][version] = 1.1
+projects[mollom][version] = 2.0-beta1
 
 projects[multiform][type] = "module"
 projects[multiform][version] = 1.0-beta2
 
 projects[options_element][type] = "module"
-projects[options_element][version] = 1.4
+projects[options_element][version] = 1.5
 
 projects[pathauto][type] = "module"
 projects[pathauto][version] = 1.0
@@ -177,7 +177,7 @@ projects[views_slideshow][type] = "module"
 projects[views_slideshow][version] = 3.0
 
 projects[views][type] = "module"
-projects[views][version] = 3.0
+projects[views][version] = 3.1
 
 projects[webform][type] = "module"
 projects[webform][version] = 3.15
@@ -198,7 +198,7 @@ projects[defaultcontent][version] = 1.0-alpha4
 
 projects[field_group][version] = 1.1
 
-projects[globalredirect][version] = 1.3
+projects[globalredirect][version] = 1.4
 
 projects[image_resize_filter][version] = 1.13
 
@@ -216,7 +216,9 @@ projects[entity][version] = 1.0-rc1
 
 projects[nice_menus][version] = 2.0
 
-projects[themekey][version] = 1.5
+projects[themekey][version] = 2.0
+
+projects[rules][version] = 2.0
 
 
 ; Open Way Modules
@@ -283,10 +285,6 @@ libraries[mediaelement][download][type] = "get"
 libraries[mediaelement][download][url] = http://github.com/johndyer/mediaelement/zipball/master
 libraries[mediaelement][destination] = "libraries"
 libraries[mediaelement][directory_name] = mediaelement
-
-; Profiler
-libraries[profiler][download][type] = "get"
-libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
 
 
 
