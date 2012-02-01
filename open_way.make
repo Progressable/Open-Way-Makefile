@@ -5,7 +5,7 @@ projects[drupal][type] = "core"
  
 projects[open_way][type] = profile
 projects[open_way][download][type] = git
-projects[open_way][download][url] = git@github.com:Progressable/open_way.git
+projects[open_way][download][url] = git://github.com/Progressable/open_way.git
 
 ; projects not needed in Open Way distribution
 
